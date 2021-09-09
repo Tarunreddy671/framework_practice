@@ -1,0 +1,5 @@
+13:09:12.201 [main] INFO  resource.base - Non restricted user
+13:21:59.663 [main] INFO  resource.base - Driver is initialized
+13:21:59.757 [main] INFO  resource.base - Successfully validated Text message
+13:22:06.851 [main] INFO  resource.base - Restrcited User
+13:22:09.432 [main] INFO  resource.base - Non restricted user
