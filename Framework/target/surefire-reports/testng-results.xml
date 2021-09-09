@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26656" started-at="2021-09-09T13:43:28 IST" finished-at="2021-09-09T13:43:55 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11984" started-at="2021-09-09T13:43:28 IST" finished-at="2021-09-09T13:43:40 IST">
+      <class name="Project.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Project.ValidateTitle@50caa560]" name="initialize" is-config="true" duration-ms="11750" started-at="2021-09-09T13:43:28 IST" finished-at="2021-09-09T13:43:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Project.ValidateTitle@50caa560]" name="validateAppTitle" duration-ms="70" started-at="2021-09-09T13:43:40 IST" finished-at="2021-09-09T13:43:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Project.ValidateTitle@50caa560]" name="teardown" is-config="true" duration-ms="114" started-at="2021-09-09T13:43:40 IST" finished-at="2021-09-09T13:43:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Project.ValidateTitle -->
+    </test> <!-- Test -->
+    <test name="Homepage" duration-ms="14626" started-at="2021-09-09T13:43:40 IST" finished-at="2021-09-09T13:43:55 IST">
+      <class name="Project.Homepage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Project.Homepage@4e268090]" name="initialize" is-config="true" duration-ms="1398" started-at="2021-09-09T13:43:40 IST" finished-at="2021-09-09T13:43:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Project.Homepage@4e268090]" name="basePageNavigation" duration-ms="10262" started-at="2021-09-09T13:43:41 IST" data-provider="getData" finished-at="2021-09-09T13:43:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Project.Homepage@4e268090]" name="basePageNavigation" duration-ms="2861" started-at="2021-09-09T13:43:52 IST" data-provider="getData" finished-at="2021-09-09T13:43:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Project.Homepage@4e268090]" name="teardown" is-config="true" duration-ms="94" started-at="2021-09-09T13:43:55 IST" finished-at="2021-09-09T13:43:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Project.Homepage -->
+    </test> <!-- Homepage -->
+  </suite> <!-- Suite -->
+</testng-results>

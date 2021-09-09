@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16656" started-at="2021-09-07T13:21:53 IST" finished-at="2021-09-07T13:22:09 IST">
+  <suite name="Suite" duration-ms="16447" started-at="2021-09-09T12:13:14 IST" finished-at="2021-09-09T12:13:30 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6717" started-at="2021-09-07T13:21:53 IST" finished-at="2021-09-07T13:21:59 IST">
+    <test name="Test" duration-ms="7771" started-at="2021-09-09T12:13:14 IST" finished-at="2021-09-09T12:13:21 IST">
       <class name="Project.ValidateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Project.ValidateTitle@5939a379]" name="initialize" is-config="true" duration-ms="6468" started-at="2021-09-07T13:21:53 IST" finished-at="2021-09-07T13:21:59 IST">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Project.ValidateTitle@732c2a62]" name="initialize" is-config="true" duration-ms="7486" started-at="2021-09-09T12:13:14 IST" finished-at="2021-09-09T12:13:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Project.ValidateTitle@5939a379]" name="validateAppTitle" duration-ms="58" started-at="2021-09-07T13:21:59 IST" finished-at="2021-09-07T13:21:59 IST">
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Project.ValidateTitle@732c2a62]" name="validateAppTitle" duration-ms="48" started-at="2021-09-09T12:13:21 IST" finished-at="2021-09-09T12:13:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAppTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Project.ValidateTitle@5939a379]" name="teardown" is-config="true" duration-ms="151" started-at="2021-09-07T13:21:59 IST" finished-at="2021-09-07T13:21:59 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Project.ValidateTitle@732c2a62]" name="teardown" is-config="true" duration-ms="160" started-at="2021-09-09T12:13:21 IST" finished-at="2021-09-09T12:13:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Project.ValidateTitle -->
     </test> <!-- Test -->
-    <test name="Homepage" duration-ms="9907" started-at="2021-09-07T13:21:59 IST" finished-at="2021-09-07T13:22:09 IST">
+    <test name="Homepage" duration-ms="8640" started-at="2021-09-09T12:13:21 IST" finished-at="2021-09-09T12:13:30 IST">
       <class name="Project.Homepage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Project.Homepage@67080771]" name="initialize" is-config="true" duration-ms="1395" started-at="2021-09-07T13:21:59 IST" finished-at="2021-09-07T13:22:01 IST">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Project.Homepage@3fb1549b]" name="initialize" is-config="true" duration-ms="1485" started-at="2021-09-09T12:13:21 IST" finished-at="2021-09-09T12:13:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Project.Homepage@67080771]" name="basePageNavigation" duration-ms="5798" started-at="2021-09-07T13:22:01 IST" data-provider="getData" finished-at="2021-09-07T13:22:07 IST">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Project.Homepage@3fb1549b]" name="basePageNavigation" duration-ms="4547" started-at="2021-09-09T12:13:23 IST" data-provider="getData" finished-at="2021-09-09T12:13:27 IST">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Project.Homepage@67080771]" name="basePageNavigation" duration-ms="2548" started-at="2021-09-07T13:22:07 IST" data-provider="getData" finished-at="2021-09-07T13:22:09 IST">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Project.Homepage@3fb1549b]" name="basePageNavigation" duration-ms="2441" started-at="2021-09-09T12:13:27 IST" data-provider="getData" finished-at="2021-09-09T12:13:30 IST">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Project.Homepage@67080771]" name="teardown" is-config="true" duration-ms="143" started-at="2021-09-07T13:22:09 IST" finished-at="2021-09-07T13:22:09 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Project.Homepage@3fb1549b]" name="teardown" is-config="true" duration-ms="135" started-at="2021-09-09T12:13:30 IST" finished-at="2021-09-09T12:13:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -36,7 +36,7 @@ public class base {
 		}
 		else if(browserName.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","C:/Users/Lenovo/Downloads/chromedriver_win32/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:/Users/Lenovo/Downloads/chromedriver_win32 (1)/chromedriver.exe");
 			 driver= new ChromeDriver();
 			
 		}
